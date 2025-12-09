@@ -180,7 +180,7 @@ git clone https://github.com/Wichanbright/FRA502_LAB.git
 
 ### **ขั้นตอนที่ 2: เข้าสู่ไดเร็กทอรีโปรเจกต์**
 ```bash
-cd multiverse-mission-phu-bright/
+cd EXAM/
 ````
 
 ### **ขั้นตอนที่ 3: Build (ทำครั้งเดียว)**
