@@ -180,7 +180,7 @@ git clone https://github.com/Wichanbright/EXAM.git
 
 
 
-### **ขั้นตอนที่ 2: เข้าสู่ไดเร็กทอรีโปรเจกต์**
+### **ขั้นตอนที่ 2: เข้าสู่ไดเร็กทอรีโปรเจกต์ โดยทุก terminal ที่จะรันต้องอยู่ในไดเร็กทอรี่นี้เท่านั้น**
 ```bash
 cd EXAM/
 ````
@@ -195,8 +195,8 @@ colcon build
 
 ### **ขั้นตอนที่ 4: เปิด Terminal 2 อัน**
 
-* Terminal 1 → รัน launch file
-* Terminal 2 → รัน teleop node
+* Terminal 1 cd EXAM/ → รัน launch file
+* Terminal 2 cd EXAM/ → รัน teleop node
 
 > ⚠️ **สำคัญ:** ต้องสั่ง `source install/setup.bash` ในแต่ละ terminal ก่อนรันคำสั่ง ROS2
 
@@ -219,7 +219,7 @@ source install/setup.bash
 
 ---
 
-### **ขั้นตอนที่ 5: รัน launch file (Terminal 1)**
+### **ขั้นตอนที่ 5: รัน launch file (Terminal 1 in cd EXAM/ )**
 
 ก่อนรันต้องสั่ง:
 
@@ -233,7 +233,7 @@ source install/setup.bash
 ros2 launch multiverse multiverse_bring_up.launch.py
 ````
 
-### **ขั้นตอนที่ 6: รัน teleop node (Terminal 2)**
+### **ขั้นตอนที่ 6: รัน teleop node (Terminal 2 in cd EXAM/)**
 
 ก่อนรันต้องสั่ง:
 
